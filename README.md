@@ -1,4 +1,4 @@
-# DOF Exam 2021.09.18
+# DOF Exam 2021.09.18 / 2021.09.25
 Exam Repository for DevOps Fundamentals course (2021.07) @ SoftUni
 
 A set of two containerized applications. Each of them is object of a particular part of the exam.
@@ -19,7 +19,7 @@ General application notes:
  - php files are expected to be in the **/var/www/html** folder of the *web* container;
  - each container should be named after the following rule - **role-host**, where *role* is *web* or *db*. For example, **web-host**;
  - mind the ports - each container is listening on a specific port, for example *web* is set to listen on port **80**;
- - *web* container should be started after *db*;
+ - containers can be started in any order;
 
 Use the **app2/docker-compose.yml** file as a starting point if you decide to build your own set of application configuration files (or one big file) for the platform of your choice. You can use a tool to build and then modify them, or do the entire process manually. 
 
